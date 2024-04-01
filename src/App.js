@@ -101,29 +101,29 @@ const App = () => {
           <div className="font-bold text-xl w-11/12 mb-6 mt-14">
             Follow us
           </div>
-          <div className="w-11/12 flex items-center justify-between">
-            <div className="flex flex-col items-center justify-between text-sm mb-2">
+          <div className="w-11/12 block  items-center justify-between lg:flex">
+            <div className="flex  items-center font-bold justify-between text-sm mb-8 lg:flex-col">
               <div className="icon iconfont icon-github mb-2" style={{ fontSize: '28px' }}>
               </div>
               <div>
                 GitHub
               </div>
             </div>
-            <div className="flex flex-col items-center justify-between text-sm mb-2">
-              <div className="icon iconfont icon-gitbook mb-2" style={{ fontSize: '28px' }}>
+            <div className="flex items-center font-bold justify-between text-sm mb-8 lg:flex-col">
+              <div className="icon iconfont icon-gitbook mb-2" style={{ fontSize: '24px' }}>
               </div>
               <div>
                 Gitbook
               </div>
             </div>
-            <div className="flex flex-col items-center justify-between text-sm mb-2">
+            <div className="flex items-center font-bold justify-between text-sm mb-8 lg:flex-col">
               <div className="icon iconfont icon-discord mb-2" style={{ fontSize: '28px' }}>
               </div>
               <div>
                 Discord
               </div>
             </div>
-            <div className="flex flex-col items-center justify-between text-sm mb-2">
+            <div className="flex  items-center font-bold justify-between text-sm mb-8 lg:flex-col">
               <div className="icon iconfont icon-twitter mb-2" style={{ fontSize: '28px' }}>
               </div>
               <div>
@@ -133,7 +133,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="py-10 w-full flex-col items-center justify-center hidden md:flex">
+        <div className="py-10 w-full flex-col items-center justify-center hidden xl:flex">
 
           <div className="w-11/12 flex items-center justify-end mb-4">
             <div className="flex flex-col items-center justify-between text-sm mb-2 mr-6 cursor-pointer social-item">
