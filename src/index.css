@@ -12,3 +12,7 @@ img {
   content: "";
   display: block;
 }
+
+.social-item:hover {
+  color: grey;
+}
