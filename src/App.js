@@ -3,15 +3,17 @@ import React from "react";
 const App = () => {
   return (
     <div>
-      <div className="w-full h-37-86 bg-primary-green border border-primary-green">
-        <div className="mt-1-25">
-          <div className="w-21-00 h-5-91">
+      <div className="w-full h-38-88 bg-primary-green relative border-t border-transparent">
+        <div className="w-full absolute">
+          <img src="/images/mobile/top-bg.png" alt="" />
+        </div>
+        <div className="mt-0-94 relative z-10">
+          <div className="w-15-76">
             <img src="/images/mobile/logo-word.png" alt=""></img>
           </div>
         </div>
-        <div className="flex relavite">
-          <div></div>
-          <div className="w-31-08 h-15-00 mt-3-16 border border-red-500 ml-1-50 font-5-25 leading-none" style={{ fontSize: '5.25rem' }}>
+        <div className="flex relative">
+          <div className="w-31-08 h-15-00 mt-3-16 ml-1-50 font-5-25 leading-none" style={{ fontSize: '5.25rem' }}>
             Unlocking<br></br>
             <span className="leading-none" style={{ fontSize: '2.625rem' }}>the Future of Inscriptions</span>
           </div>
