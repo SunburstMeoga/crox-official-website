@@ -3,10 +3,24 @@ import React from "react";
 const App = () => {
   return (
     <div>
+      <div className="w-full h-37-86 bg-primary-green border border-primary-green">
+        <div className="mt-1-25">
+          <div className="w-21-00 h-5-91">
+            <img src="/images/mobile/logo-word.png" alt=""></img>
+          </div>
+        </div>
+        <div className="flex relavite">
+          <div></div>
+          <div className="w-31-08 h-15-00 mt-3-16 border border-red-500 ml-1-50 font-5-25 leading-none" style={{ fontSize: '5.25rem' }}>
+            Unlocking<br></br>
+            <span className="leading-none" style={{ fontSize: '2.625rem' }}>the Future of Inscriptions</span>
+          </div>
+        </div>
+      </div>
       {/* <div className="text-3xl font-bold underline text-red-500 lg:text-blue-500 xl:text-yellow-500 ">
         crox official website
       </div> */}
-      <div className="bg-primary-green ">
+      {/* <div className="bg-primary-green ">
 
         <div className="pb-10">
           <div className="lg:hidden xl:hidden">
@@ -195,7 +209,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   )
