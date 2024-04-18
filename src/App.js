@@ -44,7 +44,7 @@ const App = () => {
                 <div className="text-white font-black relative z-10 text-4-4  ml-1-4  lg:mt-1-7 lg:-ml-0-8 lg:text-12-5" >
                   <div className="">The</div>
                   <div className="mt-0-8">Security</div>
-                  <div className="mt-0-8">pillar of</div>
+                  <div className="-mt-1-8">pillar of</div>
                   <div className="mt-3-5 lg:mt-6-0">inscription</div>
                   <div className="">ecology</div>
                 </div>
@@ -116,7 +116,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="w-full border-t relative border-transparent border border-red-500">
+            <div className="w-full relative border-t  border-transparent ">
               <div className="w-full absolute">
                 <img src="/images/mobile/module-rights-bg.png"></img>
               </div>
