@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
+* {
   font-family: PoppinsRegular;
-} */
+}
 
 img {
   width: 100%;
@@ -32,4 +32,17 @@ img {
 .bg-gradient-gray {
   background: rgb(255, 255, 255);
   background: radial-gradient(circle, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.53) 100%);
+}
+
+.h-124-8 {
+  height: 124.8rem;
+}
+
+.text-big {
+  font-size: 140rem;
+  border: 1px solid red;
+}
+
+div {
+  line-height: 1;
 }

@@ -23,9 +23,12 @@ module.exports = {
         'border-green': '#437820',
         'word-gray': '#5E5E5E'
       },
-      // fontSize: ({ theme }) => ({
-      //   ...theme("spacing"),
-      // }),
+      fontSize: ({ theme }) => ({
+        ...theme("spacing"),
+      }),
+      lineHeight: ({ theme }) => ({
+        ...theme("spacing"),
+      }),
     },
   },
   plugins: [],
