@@ -78,13 +78,13 @@ const App = () => {
                     <div className="w-11-6 lg:w-30-7">
                       <div className="w-full mb-0-8 relative lg:mb-1-9">
                         <img src="/images/mobile/trading-model-one.png"></img>
-                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow h-3-2 leading-7" >
+                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:text-4-0 lg:pl-2-7 lg:bottom-3-0" >
                           Flexible and convenient
                         </div>
                       </div>
                       <div className="w-full relative">
                         <img src="/images/mobile/trading-model-three.png"></img>
-                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow h-1-3 leading-7" >
+                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
                           Low fees
                         </div>
                       </div>
@@ -92,7 +92,7 @@ const App = () => {
                     <div className="w-10-0 lg:w-26-4">
                       <div className="w-full relative">
                         <img src="/images/mobile/trading-model-two.png"></img>
-                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow h-8-3 leading-7" >
+                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
                           Automatic order splitting and matching
                         </div>
                       </div>
@@ -102,13 +102,13 @@ const App = () => {
                 <div className="w-22-5 flex justify-between items-center lg:w-59-0">
                   <div className="w-11-6 relative lg:w-30-7">
                     <img src="/images/mobile/trading-model-four.png"></img>
-                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow h-6-9 leading-7" >
+                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
                       Extremely fast transaction speed
                     </div>
                   </div>
                   <div className="w-10-0 relative lg:w-26-4">
                     <img src="/images/mobile/trading-model-five.png"></img>
-                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow h-6-7 leading-7" >
+                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-4 lg:bottom-3-0" >
                       No restrictions on entire transactions
                     </div>
                   </div>
@@ -116,7 +116,7 @@ const App = () => {
               </div>
             </div>
 
-            <div className="w-full border-t border-transparent h-124-8">
+            <div className="w-full border-t border-transparent h-124-8 lg:h-215-0 border border-red-500">
               <div className="w-full relative">
                 <div className="w-full absolute">
                   <img src="/images/mobile/module-rights-bg.png"></img>
