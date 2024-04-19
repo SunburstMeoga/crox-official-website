@@ -11,13 +11,13 @@ const App = () => {
           <div className="">
             <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3">
               <div className="w-full absolute">
-                <img src="/images/mobile/top-bg.png" alt="" className="lg:hidden xl:hidden" />
-                <img src="/images/pad/top-bg.png" alt="" className="hidden lg:block xl:hidden"></img>
+                <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
+                <img alt="" src="/images/pad/top-bg.png" className="hidden lg:block xl:hidden"></img>
               </div>
               <div className="mt-0-9 relative z-10 lg:mt-4-8">
                 <div className="w-15-8 lg:w-19-9">
-                  <img src="/images/mobile/logo-word.png" alt="" className="lg:hidden xl:hidden"></img>
-                  <img src="/images/pad/logo-word.png" alt="" className="hidden lg:block lg:ml-3-9 xl:hidden"></img>
+                  <img alt="" src="/images/mobile/logo-word.png" className="lg:hidden xl:hidden"></img>
+                  <img alt="" src="/images/pad/logo-word.png" className="hidden lg:block lg:ml-3-9 xl:hidden"></img>
                 </div>
               </div>
               <div className="relative w-full">
@@ -38,13 +38,13 @@ const App = () => {
               </div>
               <div className="relative w-full mt-1-4">
                 <div className="absolute left-0 top-0 w-full">
-                  <img src="/images/mobile/seucrity.png" className="lg:hidden xl:hidden"></img>
-                  <img src="/images/pad/seucrity.png" className="hidden lg:block lg:mt-10-0 xl:hidden"></img>
+                  <img alt="" src="/images/mobile/seucrity.png" className="lg:hidden xl:hidden"></img>
+                  <img alt="" src="/images/pad/seucrity.png" className="hidden lg:block lg:mt-10-0 xl:hidden"></img>
                 </div>
                 <div className="text-white font-black relative z-10 text-4-4  ml-1-4  lg:mt-1-7 lg:-ml-0-8 lg:text-12-5" >
                   <div className="">The</div>
-                  <div className="mt-0-8">Security</div>
-                  <div className="-mt-1-8">pillar of</div>
+                  <div className="">Security</div>
+                  <div className="-mt-0-6">pillar of</div>
                   <div className="mt-3-5 lg:mt-6-0">inscription</div>
                   <div className="">ecology</div>
                 </div>
@@ -77,13 +77,13 @@ const App = () => {
                   <div className="flex justify-between items-center">
                     <div className="w-11-6 lg:w-30-7">
                       <div className="w-full mb-0-8 relative lg:mb-1-9">
-                        <img src="/images/mobile/trading-model-one.png"></img>
+                        <img alt="" src="/images/mobile/trading-model-one.png"></img>
                         <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:text-4-0 lg:pl-2-7 lg:bottom-3-0" >
                           Flexible and convenient
                         </div>
                       </div>
                       <div className="w-full relative">
-                        <img src="/images/mobile/trading-model-three.png"></img>
+                        <img alt="" src="/images/mobile/trading-model-three.png"></img>
                         <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
                           Low fees
                         </div>
@@ -91,7 +91,7 @@ const App = () => {
                     </div>
                     <div className="w-10-0 lg:w-26-4">
                       <div className="w-full relative">
-                        <img src="/images/mobile/trading-model-two.png"></img>
+                        <img alt="" src="/images/mobile/trading-model-two.png"></img>
                         <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
                           Automatic order splitting and matching
                         </div>
@@ -101,13 +101,13 @@ const App = () => {
                 </div>
                 <div className="w-22-5 flex justify-between items-center lg:w-59-0">
                   <div className="w-11-6 relative lg:w-30-7">
-                    <img src="/images/mobile/trading-model-four.png"></img>
+                    <img alt="" src="/images/mobile/trading-model-four.png"></img>
                     <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
                       Extremely fast transaction speed
                     </div>
                   </div>
                   <div className="w-10-0 relative lg:w-26-4">
-                    <img src="/images/mobile/trading-model-five.png"></img>
+                    <img alt="" src="/images/mobile/trading-model-five.png"></img>
                     <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-4 lg:bottom-3-0" >
                       No restrictions on entire transactions
                     </div>
@@ -118,145 +118,144 @@ const App = () => {
 
             <div className="w-full relative border-t  border-transparent ">
               <div className="w-full absolute">
-                <img src="/images/mobile/module-rights-bg.png"></img>
+                <img alt="" src="/images/mobile/module-rights-bg.png" className="lg:hidden xl:hidden"></img>
+                <img alt="" src="/images/pad/module-rights-bg.png" className="hidden lg:block xl:hidden"></img>
               </div>
-              <div className="w-full relative text-white z-10 -mt-1-0 -ml-0-7">
-                <div className="h-8-5 font-black  text-spacing-9 text-9-2 leading-8-5">
-                  <span className="text-black">U</span>ser Right
+              <div className="w-full relative text-white z-10 -mt-1-3 -ml-0-7 lg:-mt-3-2 lg:-ml-1-6">
+                <div className="font-black  text-9-2 lg:text-22-3">
+                  <span className="text-black">U</span>ser
                 </div>
-                <div className="h-8-5 font-black text-spacing-9 overflow text-9-2 leading-8-5">
+                <div className="font-black text-spacing-9 overflow text-9-2 -mt-1-5 lg:text-22-3 lg:-mt-5-1 lg:text-spacing--9">
                   <span className="text-black">R</span>ights
                 </div>
-                <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto">
-                  <div className="w-10-9">
-                    <img src="/images/mobile/become-icon.png"></img>
+                <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto lg:w-54-0 lg:mt-7-4">
+                  <div className="w-10-9 lg:w-19-7">
+                    <img alt="" src="/images/mobile/become-icon.png"></img>
                   </div>
-                  <div className="font-black h-8-5 text-title-black mt-1-5 text-3-0 leading-3-0">
+                  <div className="font-black  text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-2-7">
                     Become a verification node
                   </div>
-                  <div className="font-bold h-13-7 text-black mt-1-5 text-1-5 leading-2-0">
+                  <div className="font-bold text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
                     Users holding CROX inscriptions will have the opportunity to become verification nodes and participate in the security maintenance and consensus mechanism of the public chain network.
                   </div>
                 </div>
 
-                <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto">
-                  <div className="w-10-9">
-                    <img src="/images/mobile/point-icon.png"></img>
+                <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto lg:w-54-0 lg:mt-7-4">
+                  <div className="w-10-9 lg:w-19-7">
+                    <img alt="" src="/images/mobile/point-icon.png"></img>
                   </div>
-                  <div className="font-black h-8-5 text-title-black mt-1-5 text-3-0 leading-3-0">
+                  <div className="font-black  text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-4-6">
                     Participating exchange fee sharing
                   </div>
-                  <div className="h-13-7 text-black mt-1-5 text-1-5 leading-2-0">
+                  <div className=" text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
                     Participating in exchange fee sharing, users holding CROX inscriptions can share the fee income generated by the exchange and gain profits from it.
                   </div>
                 </div>
 
-                <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto">
-                  <div className="w-10-9">
-                    <img src="/images/mobile/hook-icon.png"></img>
+                <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mb-2-3 mx-auto lg:w-54-0 lg:mt-7-4">
+                  <div className="w-10-9 lg:w-19-7">
+                    <img alt="" src="/images/mobile/hook-icon.png"></img>
                   </div>
-                  <div className="font-black h-8-5 text-title-black mt-1-5 text-3-0 leading-3-0">
+                  <div className="font-black text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-4-6">
                     Cross-chain bridge handling fee sharing
                   </div>
-                  <div className="h-13-7 text-black mt-4-4 text-1-5 leading-2-0">
+                  <div className=" text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
                     Cross-chain bridge handling fee sharing, users holding CROX inscriptions can also obtain additional income through cross-chain bridge transaction fee sharing.
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="w-full  bg-module-black relative z-20 border-t border-transparent" >
-              <div className="h-4-8  font-black text-primary-green tracking-tight -ml-0-3 text-6-0 leading-3-9">
+            <div className="w-full bg-module-black relative z-20 border-t border-transparent" >
+
+              <div className="font-black text-primary-green tracking-tight -ml-0-4 text-6-0 -mt-0-9 lg:text-13-4 lg:-mt-2-0 lg:-ml-0-9">
                 Product
               </div>
-              <div className="h-4-8 font-black text-primary-green tracking-tight overflow -ml-0-3 text-5-5 leading-3-0">
+              <div className="font-black text-primary-green tracking-tight overflow -ml-0-4 text-5-5 -mt-0-9 lg:text-13-4 lg:-mt-2-6 lg:-ml-0-9">
                 Roadmap
               </div>
-              <div className="mt-5-4 w-full flex flex-col justify-start items-center">
-                <div className="w-22-6">
-                  <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5">
-                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0">1</div>
+              <div className="mt-5-4 w-full flex flex-col justify-start items-center lg:mt-2-3 relative">
+                {/* <div className="w-0-2 h-89-0 bg-title-black absolute left-2-4 top-2-1 -z-10"></div> */}
+                <div className="w-22-6  lg:w-54-7">
+                  <div className="w-full flex justify-start items-start">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
+                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">1</div>
+
                     </div>
-                    <div className="w-18-0  ml-1-8">
-                      <div className="w-18-0 bg-gradient-gray h-0-1"></div>
-                      <div className="text-white mt-1-5 font-black text-2-0 leading-2">Issuance inscription on Bitcoin</div>
-                      <div className="text-word-gray mt-1-6 text-1-2 leading-1.2">
+                    <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9 ">
+                      <div className="w-full bg-gradient-gray h-0-1"></div>
+                      <div className="text-white mt-1-5 font-black text-2-0 lg:text-4-0 lg:mt-4-7">Issuance inscription on Bitcoin</div>
+                      <div className="text-word-gray mt-1-6 text-1-2 lg:text-2-5 lg:mt-3-1">
                         Inscription was successfully issued to the Bitcoin network to ensure its security and reliability, laying the foundation for the construction of the Inscription ecology.
                       </div>
-                      <div className="w-18-0 bg-gradient-gray h-0-1 mt-2-0"></div>
                     </div>
                   </div>
                 </div>
-                <div className="w-22-6">
+                <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5">
-                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0">2</div>
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
+                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">2</div>
                     </div>
-                    <div className="w-18-0  ml-1-8">
-                      <div className="w-18-0 bg-gradient-gray h-0-1"></div>
-                      <div className="text-white mt-1-5 font-black text-2-0 leading-2">Complete the public chain test and implement the inscription index backend function</div>
-                      <div className="text-word-gray mt-1-6 text-1-2 leading-1.2">
+                    <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9 ">
+                      <div className="w-full bg-gradient-gray h-0-1"></div>
+                      <div className="text-white mt-1-5 font-black text-2-0 lg:text-4-0 lg:mt-4-7">Complete the public chain test and implement the inscription index backend function</div>
+                      <div className="text-word-gray mt-1-6 text-1-2 lg:text-2-5 lg:mt-3-1">
                         Ensure chain stability and efficient inscription management
                       </div>
-                      <div className="w-18-0 bg-gradient-gray h-0-1 mt-2-0"></div>
                     </div>
                   </div>
                 </div>
-                <div className="w-22-6">
+                <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5">
-                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0">3</div>
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
+                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">3</div>
                     </div>
-                    <div className="w-18-0  ml-1-8">
-                      <div className="w-18-0 bg-gradient-gray h-0-1"></div>
-                      <div className="text-white mt-1-5 font-black text-2-0 leading-2">Complete inscription online</div>
-                      <div className="text-word-gray mt-1-6 text-1-2 leading-1.2">
+                    <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9" >
+                      <div className="w-full bg-gradient-gray h-0-1"></div>
+                      <div className="text-white mt-1-5 font-black text-2-0 lg:text-4-0 lg:mt-4-7">Complete inscription online</div>
+                      <div className="text-word-gray mt-1-6 text-1-2 lg:text-2-5 lg:mt-3-1">
                         Realize the launch of inscriptions on CroxChain, including the issuance, management and trading of inscriptions, laying a solid foundation for the development of the inscription ecology
                       </div>
-                      <div className="w-18-0 bg-gradient-gray h-0-1 mt-2-0"></div>
                     </div>
                   </div>
                 </div>
-                <div className="w-22-6">
+                <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5">
-                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0">4</div>
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
+                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">4</div>
                     </div>
-                    <div className="w-18-0  ml-1-8">
-                      <div className="w-18-0 bg-gradient-gray h-0-1"></div>
-                      <div className="text-white mt-1-5 font-black text-2-0 leading-2">Online inscription browser</div>
-                      <div className="text-word-gray mt-1-6 text-1-2 leading-1.2">
+                    <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9">
+                      <div className="w-full bg-gradient-gray h-0-1"></div>
+                      <div className="text-white mt-1-5 font-black text-2-0 lg:text-4-0 lg:mt-4-7">Online inscription browser</div>
+                      <div className="text-word-gray mt-1-6 text-1-2 lg:text-2-5 lg:mt-3-1">
                         Allows users to easily view and track information related to inscriptions, improving user experience and usability.
                       </div>
-                      <div className="w-18-0 bg-gradient-gray h-0-1 mt-2-0"></div>
                     </div>
                   </div>
                 </div>
-                <div className="w-22-6">
+                <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5">
-                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0">5</div>
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
+                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">5</div>
                     </div>
-                    <div className="w-18-0  ml-1-8">
-                      <div className="w-18-0 bg-gradient-gray h-0-1"></div>
-                      <div className="text-white mt-1-5 font-black text-2-0 leading-2">Completed the launch of the cross-chain bridge function</div>
-                      <div className="text-word-gray mt-1-6 text-1-2 leading-1.2">
+                    <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9">
+                      <div className="w-full bg-gradient-gray h-0-1"></div>
+                      <div className="text-white mt-1-5 font-black text-2-0 lg:text-4-0 lg:mt-4-7">Completed the launch of the cross-chain bridge function</div>
+                      <div className="text-word-gray mt-1-6 text-1-2 lg:text-2-5 lg:mt-3-1">
                         Enables users to easily transfer inscriptions between different chains and promotes cross-chain interoperability of the inscription ecology
                       </div>
-                      <div className="w-18-0 bg-gradient-gray h-0-1 mt-2-0"></div>
                     </div>
                   </div>
                 </div>
-                <div className="w-22-6">
+                <div className="w-22-6 mt-2-0 pb-3-8 lg:w-54-7 lg:mt-4-6 lg:pb-6-3">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5">
-                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0">6</div>
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
+                      <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">6</div>
                     </div>
-                    <div className="w-18-0  ml-1-8">
-                      <div className="w-18-0 bg-gradient-gray h-0-1"></div>
-                      <div className="text-white mt-1-5 font-black text-2-0 leading-2">Online trading market</div>
-                      <div className="text-word-gray mt-1-6 text-1-2 leading-1.2 mb-2-0">
+                    <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9">
+                      <div className="w-full bg-gradient-gray h-0-1"></div>
+                      <div className="text-white mt-1-5 font-black text-2-0 lg:text-4-0 lg:mt-4-7">Online trading market</div>
+                      <div className="text-word-gray mt-1-6 text-1-2 lg:text-2-5 lg:mt-3-1">
                         Provide users with a safe and efficient trading platform, promote the circulation and trading of inscriptions, and promote the development and prosperity of the entire ecosystem
                       </div>
                     </div>
@@ -332,7 +331,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="py-5-2 w-full flex-col items-center justify-center hidden lg:flex xl:flex">
+        <div className="py-5-2 w-full flex-col items-center justify-center hidden lg:hidden xl:flex">
 
           <div className="w-11/12 flex items-center justify-end mb-4">
             <div className="flex flex-col items-center justify-between text-sm mb-2-2 mr-1-3 cursor-pointer social-item">
