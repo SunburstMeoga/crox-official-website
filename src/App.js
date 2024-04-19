@@ -9,25 +9,31 @@ const App = () => {
       <div className="bg-primary-green ">
         <div className="">
           <div className="">
-            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3">
-              <div className="w-full absolute">
-                <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
-                <img alt="" src="/images/pad/top-bg.png" className="hidden lg:block xl:hidden"></img>
-              </div>
-              <div className="mt-0-9 relative z-10 lg:mt-4-8">
-                <div className="w-15-8 lg:w-19-9">
-                  <img alt="" src="/images/mobile/logo-word.png" className="lg:hidden xl:hidden"></img>
-                  <img alt="" src="/images/pad/logo-word.png" className="hidden lg:block lg:ml-3-9 xl:hidden"></img>
+            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3 xl:h-auto">
+              <div className="w-full relative h-full lg:absolute xl:relative">
+                <div className="w-full absolute xl:relative ">
+                  <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
+                  <img alt="" src="/images/pad/top-bg.png" className="hidden lg:block xl:hidden"></img>
+                  <img alt="" src="/images/pc/top-bg.png" className="hidden lg:hidden xl:block"></img>
                 </div>
-              </div>
-              <div className="relative w-full">
-                <div className="w-23-3  mt-2-4 ml-1-1 font-3-9 flex flex-col justify-start lg:w-56-5 lg:mt-8-1 lg:ml-3-9" >
-                  <div className="text-5-0 leading-3-9 lg:text-12-8 lg:leading-9-4">Ünlocking</div>
-                  <div className="text-3-0 leading-3-9 lg:text-6-4 lg:leading-9-4">the Future of </div>
-                  <div className="text-3-0 leading-3-9 lg:text-6-4 lg:leading-9-4">Inscriptions</div>
+                <div className="mt-0-9 relative z-10 lg:mt-4-8 xl:mt-2-5 xl:absolute xl:top-0-1 xl:left-0-1">
+                  <div className="w-15-8 lg:w-19-9">
+                    <img alt="" src="/images/mobile/logo-word.png" className="lg:hidden xl:hidden"></img>
+                    <img alt="" src="/images/pad/logo-word.png" className="hidden lg:block xl:hidden lg:ml-3-9"></img>
+                    <img alt="" src="/images/pc/logo-word.png" className="hidden lg:hidden xl:block lg:ml-4-5"></img>
+                  </div>
                 </div>
-                <div className="mt-8-6 w-21-3 mr-auto ml-auto font-semibold text-1-2 leading-1-5 lg:mt-2-9 lg:w-40-0 lg:ml-5-2 lg:text-1-9 lg:leading-2-4">
-                  Dive into the new era of trading with ease. Elevate your earnings in BTC and explore multi-chain inscriptions on our ultra-secure, decentralized platform—where transactions fly at the speed of light.
+                <div className="relative w-full xl:absolute xl:top-0-1">
+                  <div className="w-23-3 mt-2-4 ml-1-1 font-3-9 flex flex-col justify-start lg:w-56-5 lg:mt-8-1 lg:ml-3-9 xl:w-66-9 xl:mt-6-2 " >
+                    <div className="text-5-0 lg:text-12-8 lg:mt-1-0 xl:text-12-8 xl:mt-6-0">Ünlocking</div>
+                    <div className="text-3-0 mt-0-8 lg:text-6-4 lg:mt-1-0 xl:text-8-8">the Future of </div>
+                    <div className="text-3-0 mt-0-8 lg:text-6-4 lg:mt-1-0 xl:text-8-8">Inscriptions</div>
+                  </div>
+                  <div className="mt-8-6 w-full flex justify-center font-semibold text-1-2 lg:justify-start lg:mt-2-9 lg:w-40-0 lg:ml-4-2 lg:text-1-9 xl:text-1-5 xl:font-light xl:justify-end xl:w-full xl:ml-auto xl:-mt-1-0 ">
+                    <div className="w-21-3 lg:w-40-0 xl:w-39-0 xl:mr-3-7 ">
+                      Dive into the new era of trading with ease. Elevate your earnings in BTC and explore multi-chain inscriptions on our ultra-secure, decentralized platform—where transactions fly at the speed of light.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -175,7 +181,6 @@ const App = () => {
                 Roadmap
               </div>
               <div className="mt-5-4 w-full flex flex-col justify-start items-center lg:mt-2-3 relative">
-                {/* <div className="w-0-2 h-89-0 bg-title-black absolute left-2-4 top-2-1 -z-10"></div> */}
                 <div className="w-22-6  lg:w-54-7">
                   <div className="w-full flex justify-start items-start">
                     <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6">
@@ -264,7 +269,6 @@ const App = () => {
               </div>
             </div>
           </div>
-
         </div>
 
 
