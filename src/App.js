@@ -87,43 +87,48 @@ const App = () => {
               </div>
               <div className="w-full font-black pb-0-4 text-center whitespace-nowrap overflow-hidden text-4-1 lg:text-10-6 lg:pb-0-8 xl:mt-2-2"> New Trading</div>
               <div className="w-full text-center font-black pb-0-4 text-4-0 lg:text-10-6 lg:pb-0-8 lg:-mt-1-9" >Model</div>
-              <div className="mt-2-1 w-full flex flex-col justify-start items-center font-bold text-1-5 lg:text-4-0 xl:flex-row xl:w-11/12 border border-red-500" >
-                <div className="w-22-5 mb-0-8 lg:w-59-0 lg:mb-1-9 ">
-                  <div className="flex justify-between items-center">
-                    <div className="w-11-6 lg:w-30-7 xl:w-36-7">
-                      <div className="w-full mb-0-8 relative lg:mb-1-9">
-                        <img alt="" src="/images/mobile/trading-model-one.png"></img>
-                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:text-4-0 lg:pl-2-7 lg:bottom-3-0" >
+              <div className="mt-2-1 w-full flex flex-col justify-start items-center font-bold text-1-5 lg:text-4-0 xl:flex-row xl:w-11/12 xl:mr-auto xl:ml-auto xl:justify-evenly" >
+                <div className="w-22-5 mb-0-8 lg:w-59-0 lg:mb-1-9 xl:flex-1 xl:mb-auto">
+                  <div className="flex justify-between items-center xl:justify-evenly">
+                    <div className="w-11-6 lg:w-30-7 xl:w-32-4">
+                      <div className="w-full mb-0-8 relative lg:mb-1-9 xl:h-32-4 xl:mb-1-9">
+                        <img alt="" src="/images/mobile/trading-model-one.png" className="xl:hidden"></img>
+                        <img alt="" src="/images/pc/trading-model-one.png" className="hidden lg:hidden xl:block"></img>
+                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:text-4-0 lg:pl-2-7 lg:bottom-3-0 xl:text-2-5 xl:pr-3-0" >
                           Flexible and convenient
                         </div>
                       </div>
-                      <div className="w-full relative">
-                        <img alt="" src="/images/mobile/trading-model-three.png"></img>
-                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
+                      <div className="w-full relative xl:h-14-7">
+                        <img alt="" src="/images/mobile/trading-model-three.png" className="xl:hidden"></img>
+                        <img alt="" src="/images/pc/trading-model-three.png" className="hidden lg:hidden xl:block"></img>
+                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0 xl:text-2-5" >
                           Low fees
                         </div>
                       </div>
                     </div>
-                    <div className="w-10-0 lg:w-26-4">
+                    <div className="w-10-0 lg:w-26-4 xl:w-31-6">
                       <div className="w-full relative">
-                        <img alt="" src="/images/mobile/trading-model-two.png"></img>
-                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
+                        <img alt="" src="/images/mobile/trading-model-two.png" className="xl:hidden"></img>
+                        <img alt="" src="/images/pc/trading-model-two.png" className="hidden lg:hidden xl:block"></img>
+                        <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0 xl:text-4-0 xl:pr-3-0" >
                           Automatic order splitting and matching
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="w-22-5 flex justify-between items-center lg:w-59-0">
-                  <div className="w-11-6 relative lg:w-30-7">
-                    <img alt="" src="/images/mobile/trading-model-four.png"></img>
-                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0" >
+                <div className="w-22-5 flex justify-between items-center lg:w-59-0 xl:justify-start xl:items-center xl:flex-col-reverse xl:w-37-5">
+                  <div className="w-11-6 relative lg:w-30-7 xl:w-37-5 xl:h-32-5">
+                    <img alt="" src="/images/mobile/trading-model-four.png" className="xl:hidden"></img>
+                    <img alt="" src="/images/pc/trading-model-four.png" className="hidden lg:hidden xl:block"></img>
+                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0 xl:text-2-5 xl:pr-4-0" >
                       Extremely fast transaction speed
                     </div>
                   </div>
-                  <div className="w-10-0 relative lg:w-26-4">
-                    <img alt="" src="/images/mobile/trading-model-five.png"></img>
-                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-4 lg:bottom-3-0" >
+                  <div className="w-10-0 relative lg:w-26-4 xl:w-37-5 xl:h-14-8 xl:mb-1-7">
+                    <img alt="" src="/images/mobile/trading-model-five.png" className="xl:hidden"></img>
+                    <img alt="" src="/images/pc/trading-model-five.png" className="hidden lg:hidden xl:block"></img>
+                    <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-4 lg:bottom-2-0 xl:text-2-5 xl:pr-8-0" >
                       No restrictions on entire transactions
                     </div>
                   </div>
@@ -135,47 +140,52 @@ const App = () => {
               <div className="w-full absolute">
                 <img alt="" src="/images/mobile/module-rights-bg.png" className="lg:hidden xl:hidden"></img>
                 <img alt="" src="/images/pad/module-rights-bg.png" className="hidden lg:block xl:hidden"></img>
+                <img alt="" src="/images/pc/module-rights-bg.png" className="hidden lg:hidden xl:block"></img>
               </div>
               <div className="w-full relative text-white z-10 -mt-1-3 -ml-0-7 lg:-mt-3-2 lg:-ml-1-6">
-                <div className="font-black  text-9-2 lg:text-22-3">
-                  <span className="text-black">U</span>ser
-                </div>
-                <div className="font-black text-spacing-9 overflow text-9-2 -mt-1-5 lg:text-22-3 lg:-mt-5-1 lg:text-spacing--9">
-                  <span className="text-black">R</span>ights
-                </div>
-                <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto lg:w-54-0 lg:mt-7-4">
-                  <div className="w-10-9 lg:w-19-7">
-                    <img alt="" src="/images/mobile/become-icon.png"></img>
+                <div className="xl:flex xl:justify-start">
+                  <div className="font-black  text-9-2 lg:text-22-3">
+                    <span className="text-black">U</span>ser
                   </div>
-                  <div className="font-black  text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-2-7">
-                    Become a verification node
-                  </div>
-                  <div className="font-bold text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
-                    Users holding CROX inscriptions will have the opportunity to become verification nodes and participate in the security maintenance and consensus mechanism of the public chain network.
+                  <div className="font-black text-spacing-9 overflow text-9-2 -mt-1-5 lg:text-22-3 lg:-mt-5-1 lg:text-spacing--9 xl:ml-2-4 xl:mt-0-1">
+                    <span className="text-black">R</span>ights
                   </div>
                 </div>
+                <div className="xl:flex xl:justify-between xl:items-center xl:w-11/12 xl:mr-auto xl:ml-auto border border-red-500">
+                  <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto lg:w-54-0 lg:mt-7-4">
+                    <div className="w-10-9 lg:w-19-7">
+                      <img alt="" src="/images/mobile/become-icon.png"></img>
+                    </div>
+                    <div className="font-black  text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-2-7">
+                      Become a verification node
+                    </div>
+                    <div className="font-bold text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
+                      Users holding CROX inscriptions will have the opportunity to become verification nodes and participate in the security maintenance and consensus mechanism of the public chain network.
+                    </div>
+                  </div>
 
-                <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto lg:w-54-0 lg:mt-7-4">
-                  <div className="w-10-9 lg:w-19-7">
-                    <img alt="" src="/images/mobile/point-icon.png"></img>
+                  <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto lg:w-54-0 lg:mt-7-4">
+                    <div className="w-10-9 lg:w-19-7">
+                      <img alt="" src="/images/mobile/point-icon.png"></img>
+                    </div>
+                    <div className="font-black  text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-4-6">
+                      Participating exchange fee sharing
+                    </div>
+                    <div className=" text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
+                      Participating in exchange fee sharing, users holding CROX inscriptions can share the fee income generated by the exchange and gain profits from it.
+                    </div>
                   </div>
-                  <div className="font-black  text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-4-6">
-                    Participating exchange fee sharing
-                  </div>
-                  <div className=" text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
-                    Participating in exchange fee sharing, users holding CROX inscriptions can share the fee income generated by the exchange and gain profits from it.
-                  </div>
-                </div>
 
-                <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mb-2-3 mx-auto lg:w-54-0 lg:mt-7-4">
-                  <div className="w-10-9 lg:w-19-7">
-                    <img alt="" src="/images/mobile/hook-icon.png"></img>
-                  </div>
-                  <div className="font-black text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-4-6">
-                    Cross-chain bridge handling fee sharing
-                  </div>
-                  <div className=" text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
-                    Cross-chain bridge handling fee sharing, users holding CROX inscriptions can also obtain additional income through cross-chain bridge transaction fee sharing.
+                  <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mb-2-3 mx-auto lg:w-54-0 lg:mt-7-4">
+                    <div className="w-10-9 lg:w-19-7">
+                      <img alt="" src="/images/mobile/hook-icon.png"></img>
+                    </div>
+                    <div className="font-black text-title-black mt-1-5 text-3-0 lg:text-6-0 lg:mt-4-6">
+                      Cross-chain bridge handling fee sharing
+                    </div>
+                    <div className=" text-black mt-2-3 text-1-5 lg:text-2-3 lg:mt-3-8">
+                      Cross-chain bridge handling fee sharing, users holding CROX inscriptions can also obtain additional income through cross-chain bridge transaction fee sharing.
+                    </div>
                   </div>
                 </div>
               </div>
