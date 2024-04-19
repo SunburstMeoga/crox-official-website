@@ -142,7 +142,7 @@ const App = () => {
                 <img alt="" src="/images/pad/module-rights-bg.png" className="hidden lg:block xl:hidden"></img>
                 <img alt="" src="/images/pc/module-rights-bg.png" className="hidden lg:hidden xl:block"></img>
               </div>
-              <div className="w-full relative text-white z-10 -mt-1-3 -ml-0-7 lg:-mt-3-2 lg:-ml-1-6">
+              <div className="w-full relative text-white z-10 -mt-1-3 -ml-0-7 lg:-mt-3-2 lg:-ml-1-6 xl:ml-0-1">
                 <div className="xl:flex xl:justify-start">
                   <div className="font-black  text-9-2 lg:text-22-3">
                     <span className="text-black">U</span>ser
@@ -151,7 +151,7 @@ const App = () => {
                     <span className="text-black">R</span>ights
                   </div>
                 </div>
-                <div className="xl:flex xl:justify-between xl:items-center xl:w-11/12 xl:mr-auto xl:ml-auto border border-red-500">
+                <div className="xl:flex xl:justify-between xl:items-center xl:w-10/12 xl:mr-auto xl:ml-auto border border-red-500">
                   <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto lg:w-54-0 lg:mt-7-4">
                     <div className="w-10-9 lg:w-19-7">
                       <img alt="" src="/images/mobile/become-icon.png"></img>
