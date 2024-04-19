@@ -38,35 +38,44 @@ const App = () => {
               </div>
             </div>
             <div className="w-full bg-module-black border-t border-transparent">
-              <div className="flex flex-col items-end mt-3-6 lg:mt-8-0">
-                <div className="text-title-gray w-20-8 font-black inline-block text-2-5 lg:w-56-6 lg:text-6-0">Crox</div>
-                <div className="w-20-8 border-b border-white mt-0-8 lg:w-56-6 lg:mt-1-7"></div>
+              <div className="flex flex-col items-end mt-3-6 lg:mt-8-0 xl:mt-15-6">
+                <div className="text-title-gray w-20-8 font-black inline-block text-2-5 lg:w-56-6 lg:text-6-0 xl:w-11/12">Crox</div>
+                <div className="w-20-8 border-b border-white mt-0-8 lg:w-56-6 lg:mt-1-7 xl:w-11/12 xl:mt-0-1"></div>
               </div>
               <div className="relative w-full mt-1-4">
-                <div className="absolute left-0 top-0 w-full">
+                <div className="absolute left-0 top-0 w-full xl:w-10/12">
                   <img alt="" src="/images/mobile/seucrity.png" className="lg:hidden xl:hidden"></img>
                   <img alt="" src="/images/pad/seucrity.png" className="hidden lg:block lg:mt-10-0 xl:hidden"></img>
+                  <img alt="" src="/images/pc/seucrity.png" className="hidden lg:hidden xl:block  xl:-mt-14-8"></img>
                 </div>
-                <div className="text-white font-black relative z-10 text-4-4  ml-1-4  lg:mt-1-7 lg:-ml-0-8 lg:text-12-5" >
-                  <div className="">The</div>
-                  <div className="">Security</div>
-                  <div className="-mt-0-6">pillar of</div>
-                  <div className="mt-3-5 lg:mt-6-0">inscription</div>
-                  <div className="">ecology</div>
+                <div className="text-white font-black relative z-10 text-4-4  ml-1-4  lg:mt-1-7 lg:-ml-0-8 lg:text-12-5  xl" >
+                  <div className="xl:hidden">
+                    <div className="">The</div>
+                    <div className="">Security</div>
+                    <div className="-mt-0-6">pillar of</div>
+                    <div className="mt-3-5 lg:mt-6-0">inscription</div>
+                    <div className="">ecology</div>
+                  </div>
+                  <div className="hidden w-full text-8-7 -mt-1-2 xl:block title-shadow">
+                    <div className="w-full flex justify-start items-center">The security pillar of </div>
+                    <div className="w-full flex justify-end items-center mt-2-0">inscription ecology</div>
+                  </div>
                 </div>
-                <div className="flex flex-col items-start mt-1-2 lg:mt-4-4">
-                  <div className="w-17-6 border-b border-white lg:w-44-2"></div>
+                <div className="flex flex-col items-start mt-1-2 lg:mt-4-4 xl:items-end xl:relative xl:z-10 xl:mt-0-6">
+                  <div className="w-17-6 border-b border-white lg:w-44-2 xl:w-11/12"></div>
                 </div>
               </div>
-              <div className="w-full pb-3-9 lg:pb-12-0">
-                <div className="mt-3-0 text-title-gray font-black w-18-2 ml-auto mr-auto mb-1-4 lg:text-1-5 lg:w-38-6 lg:ml-3-6 lg:mt-2-0">
-                  CroxChain is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
+              <div className="w-full pb-3-9 lg:pb-12-0 xl:pb-6-6">
+                <div className="w-full flex justify-center lg:justify-start xl:justify-end lg:pb-5-6 xl:pb-9-9 ">
+                  <div className="mt-3-0 text-title-gray font-black w-18-2 mb-1-4 lg:text-1-5 lg:w-38-6 lg:ml-3-6 lg:mt-2-0 xl:relative xl:z-10 xl:text-1-2 xl:w-42-9 xl:mt-4-4">
+                    CroxChain is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
+                  </div>
                 </div>
-                <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center">
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1">Safety</div>
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1">Cross-chain bridge</div>
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1">Transaction speed is fast</div>
-                  <div className="w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto">Decentraliz-ation</div>
+                <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9">
+                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1">Safety</div>
+                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:px-3-1 xl:mb-0-1">Cross-chain bridge</div>
+                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1">Transaction speed is fast</div>
+                  <div className="w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto xl:w-23-1 xl:px-4-1 xl:mb-0-1">Decentraliz-ation</div>
                 </div>
               </div>
             </div>
@@ -76,12 +85,12 @@ const App = () => {
                 <div className="w-0-2 h-3-7 bg-module-black lg:h-4-6 lg:w-0-4"></div>
                 <div className="w-1-9 h-1-9 rounded-full bg-module-black lg:w-3-6 lg:h-3-6 "></div>
               </div>
-              <div className="w-full font-black pb-0-4 text-center whitespace-nowrap overflow-hidden text-4-1 lg:text-10-6 lg:pb-0-8"> New Trading</div>
+              <div className="w-full font-black pb-0-4 text-center whitespace-nowrap overflow-hidden text-4-1 lg:text-10-6 lg:pb-0-8 xl:mt-2-2"> New Trading</div>
               <div className="w-full text-center font-black pb-0-4 text-4-0 lg:text-10-6 lg:pb-0-8 lg:-mt-1-9" >Model</div>
-              <div className="mt-2-1 w-full flex flex-col justify-start items-center font-bold text-1-5 lg:text-4-0 " >
-                <div className="w-22-5 mb-0-8 lg:w-59-0 lg:mb-1-9">
+              <div className="mt-2-1 w-full flex flex-col justify-start items-center font-bold text-1-5 lg:text-4-0 xl:flex-row xl:w-11/12 border border-red-500" >
+                <div className="w-22-5 mb-0-8 lg:w-59-0 lg:mb-1-9 ">
                   <div className="flex justify-between items-center">
-                    <div className="w-11-6 lg:w-30-7">
+                    <div className="w-11-6 lg:w-30-7 xl:w-36-7">
                       <div className="w-full mb-0-8 relative lg:mb-1-9">
                         <img alt="" src="/images/mobile/trading-model-one.png"></img>
                         <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:text-4-0 lg:pl-2-7 lg:bottom-3-0" >
