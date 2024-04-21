@@ -68,7 +68,7 @@ const App = () => {
               <div className="w-full pb-3-9 lg:pb-12-0 xl:pb-6-6">
                 <div className="w-full flex justify-center lg:justify-start xl:justify-end lg:pb-5-6 xl:pb-9-9 ">
                   <div className="mt-3-0 text-title-gray font-black w-18-2 mb-1-4 lg:text-1-5 lg:w-38-6 lg:ml-3-6 lg:mt-2-0 xl:relative xl:z-10 xl:text-1-2 xl:w-42-9 xl:mt-4-4">
-                    CroxChain is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
+                    Crox is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
                   </div>
                 </div>
                 <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9">
