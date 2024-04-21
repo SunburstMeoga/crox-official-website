@@ -152,7 +152,7 @@ const App = () => {
                   </div>
                 </div>
                 <div className="xl:flex xl:justify-between xl:items-center xl:w-10/12 xl:mr-auto xl:ml-auto xl:mt-7-8 xl:pb-14-4">
-                  <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto lg:w-54-0 lg:mt-7-4 xl:mt-0-1">
+                  <div className="w-20-4 flex flex-col justify-start items-start mt-3-5 mx-auto lg:w-54-0 lg:mt-7-4 xl:mt-0-1 xl:items-center">
                     <div className="w-10-9 lg:w-19-7 xl:w-15-6">
                       <img alt="" src="/images/mobile/become-icon.png"></img>
                     </div>
@@ -164,7 +164,7 @@ const App = () => {
                     </div>
                   </div>
 
-                  <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto lg:w-54-0 lg:mt-7-4 xl:mt-0-1">
+                  <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mx-auto lg:w-54-0 lg:mt-7-4 xl:mt-0-1 xl:items-center">
                     <div className="w-10-9 lg:w-19-7 xl:w-15-6">
                       <img alt="" src="/images/mobile/point-icon.png"></img>
                     </div>
@@ -176,7 +176,7 @@ const App = () => {
                     </div>
                   </div>
 
-                  <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mb-2-3 mx-auto lg:w-54-0 lg:mt-7-4 xl:mt-0-1 xl:w-31-0">
+                  <div className="w-20-4 flex flex-col justify-start items-start mt-4-0 mb-2-3 mx-auto lg:w-54-0 lg:mt-7-4 xl:mt-0-1 xl:w-31-0 xl:items-center">
                     <div className="w-10-9 lg:w-19-7 xl:w-15-6">
                       <img alt="" src="/images/mobile/hook-icon.png"></img>
                     </div>
@@ -201,7 +201,7 @@ const App = () => {
               <div className="mt-5-4 w-full flex flex-col justify-start items-center lg:mt-2-3 relative xl:mt-7-8">
                 <div className="w-22-6 lg:w-54-7 xl:w-98-5">
                   <div className="w-full flex justify-start items-start">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-2-1">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-1-1">
                       <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">1</div>
                     </div>
                     <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9 xl:w-80-5">
@@ -215,7 +215,7 @@ const App = () => {
                 </div>
                 <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6 xl:w-98-5">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-2-1">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-1-1">
                       <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">2</div>
                     </div>
                     <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9  xl:w-80-5">
@@ -229,7 +229,7 @@ const App = () => {
                 </div>
                 <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6 xl:w-98-5">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-2-1">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-1-1">
                       <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">3</div>
                     </div>
                     <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9  xl:w-80-5" >
@@ -243,7 +243,7 @@ const App = () => {
                 </div>
                 <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6 xl:w-98-5">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-2-1">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-1-1">
                       <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">4</div>
                     </div>
                     <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9  xl:w-80-5">
@@ -257,7 +257,7 @@ const App = () => {
                 </div>
                 <div className="w-22-6 mt-2-0 lg:w-54-7 lg:mt-4-6 xl:w-98-5">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-2-1">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-1-1">
                       <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">5</div>
                     </div>
                     <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9  xl:w-80-5">
@@ -271,7 +271,7 @@ const App = () => {
                 </div>
                 <div className="w-22-6 mt-2-0 pb-3-8 lg:w-54-7 lg:mt-4-6 lg:pb-6-3 xl:w-98-5">
                   <div className="w-full flex justify-start items-start ">
-                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-2-1">
+                    <div className="w-2-9 h-2-9 bg-border-green p-0-5 rounded-full shadow-xl mt-1-5 lg:w-10-0 lg:h-10-0 lg:p-1-0 lg:mt-3-6 xl:w-10-0 xl:h-10-0 xl:p-1-1">
                       <div className="w-full h-full rounded-full bg-primary-green text-black flex justify-center items-center font-black text-2-0 lg:text-4-0">6</div>
                     </div>
                     <div className="w-18-0 ml-1-8 lg:w-39-3 lg:ml-1-9  xl:w-80-5">
