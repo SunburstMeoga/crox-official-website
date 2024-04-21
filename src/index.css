@@ -23,6 +23,10 @@ img {
   color: grey;
 }
 
+.social-item:active {
+  color: grey;
+}
+
 .title-shadow {
   text-shadow: 4px 4px 10px #000;
 }
@@ -51,4 +55,16 @@ img {
 
 div {
   line-height: 1;
+}
+
+.button-active:active {
+  border: 2px solid #BDFF00;
+  background: transparent;
+  color: white;
+}
+
+.active-primary-color,
+.social-item {
+  transition: all 0.1s ease-in;
+  /* border:1px solid red; */
 }

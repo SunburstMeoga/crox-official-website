@@ -72,10 +72,10 @@ const App = () => {
                   </div>
                 </div>
                 <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9">
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1">Safety</div>
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:px-3-1 xl:mb-0-1">Cross-chain bridge</div>
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1">Transaction speed is fast</div>
-                  <div className="w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto xl:w-23-1 xl:px-4-1 xl:mb-0-1">Decentraliz-ation</div>
+                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1 button-active">Safety</div>
+                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:px-3-1 xl:mb-0-1 button-active">Cross-chain bridge</div>
+                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1 button-active">Transaction speed is fast</div>
+                  <div className="w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto xl:w-23-1 xl:px-4-1 xl:mb-0-1 button-active">Decentraliz-ation</div>
                 </div>
               </div>
             </div>
@@ -291,27 +291,27 @@ const App = () => {
 
         <div className="py-10 w-full flex flex-col items-center justify-center xl:hidden">
           <div className="w-11/12 flex flex-col items-center justify-start mt-1-2">
-            <div className="flex items-center justify-between font-semibold text-lg w-full mb-2-2">
-              <div>
+            <div className="flex items-center justify-between font-semibold text-lg w-full mb-2-2 social-item">
+              <div className="">
                 API
               </div>
             </div>
-            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2">
+            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2 social-item">
               <div>
                 Developer services
               </div>
             </div>
-            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2">
+            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2 social-item">
               <div>
                 Legal Disclaimer
               </div>
             </div>
-            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2">
+            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2 social-item">
               <div>
                 Privacy Policy
               </div>
             </div>
-            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2">
+            <div className="flex items-center justify-between font-semibold text-lg w-full mb-3-2 social-item">
               <div>
                 Terms of Service
               </div>
@@ -321,28 +321,28 @@ const App = () => {
             Follow us
           </div>
           <div className="w-11/12 block  items-center justify-between lg:flex">
-            <div className="flex  items-center font-bold justify-between text-sm mb-3-5 lg:flex-col">
+            <div className="flex  items-center font-bold justify-between text-sm mb-3-5 lg:flex-col social-item">
               <div className="icon iconfont icon-github mb-2" style={{ fontSize: '28px' }}>
               </div>
               <div>
                 GitHub
               </div>
             </div>
-            <div className="flex items-center font-bold justify-between text-sm mb-3-5 lg:flex-col">
+            <div className="flex items-center font-bold justify-between text-sm mb-3-5 lg:flex-col social-item">
               <div className="icon iconfont icon-gitbook mb-2" style={{ fontSize: '24px' }}>
               </div>
               <div>
                 Gitbook
               </div>
             </div>
-            <div className="flex items-center font-bold justify-between text-sm mb-3-5 lg:flex-col">
+            <div className="flex items-center font-bold justify-between text-sm mb-3-5 lg:flex-col social-item">
               <div className="icon iconfont icon-discord mb-2" style={{ fontSize: '28px' }}>
               </div>
               <div>
                 Discord
               </div>
             </div>
-            <div className="flex  items-center font-bold justify-between text-sm mb-3-5 lg:flex-col">
+            <div className="flex  items-center font-bold justify-between text-sm mb-3-5 lg:flex-col social-item">
               <div className="icon iconfont icon-twitter mb-2" style={{ fontSize: '28px' }}>
               </div>
               <div>
