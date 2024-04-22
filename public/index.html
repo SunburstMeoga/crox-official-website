@@ -20,6 +20,14 @@
   <div id="root"></div>
 </body>
 <script>
+  (function () {
+    var width = document.documentElement.clientWidth;
+    if (width > 1024) {
+      document.getElementsByTagName("html")[0].style["font-size"] = 0.8 + "vw";
+    } else {
+      document.getElementsByTagName("html")[0].style["font-size"] = 16 + "px";
+    }
+  })()
   // function setRootFontSize() {
   //   var width = document.documentElement.clientWidth;
   //   if (width > 1024) {

@@ -24,7 +24,7 @@ img {
 }
 
 .social-item:hover {
-  color: grey;
+  /* color: grey; */
 }
 
 .social-item:active {
