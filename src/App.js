@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const App = () => {
+  let [buttonAnimate, toggleButtonAnimate] = useState(false)
+  let [tradAnimate, toggleTradAnimate] = useState(false)
+
+  let handleScroll = () => {
+    let scrollY = window.scrollY;
+    // console.log(scrollY)
+    console.log(scrollY)
+    if (scrollY >= 744) {
+      toggleButtonAnimate(buttonAnimate = true)
+    } else if (scrollY < 744) {
+      toggleButtonAnimate(buttonAnimate = false)
+    }
+    if (scrollY >= 1300) {
+      toggleTradAnimate(tradAnimate = true)
+    } else if (scrollY < 744) {
+      toggleTradAnimate(tradAnimate = false)
+    }
+  }
+  useEffect(() => {
+    console.log("222")
+    window.addEventListener("scroll", handleScroll)
+    handleScroll()
+  })
   return (
     <div>
       {/* <div className="text-3xl font-bold underline text-red-500 lg:text-blue-500 xl:text-yellow-500 ">
@@ -8,10 +31,10 @@ const App = () => {
       </div> */}
       <div className="bg-primary-green ">
         <div className="">
-          <div className="">
+          <div className="animate__animated animate__fadeIn">
             <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3 xl:h-auto">
-              <div className="w-full relative h-full lg:absolute xl:relative">
-                <div className="w-full absolute xl:relative ">
+              <div className="w-full relative h-full lg:absolute xl:relative ">
+                <div className="w-full absolute xl:relative">
                   <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
                   <img alt="" src="/images/pad/top-bg.png" className="hidden lg:block xl:hidden"></img>
                   <img alt="" src="/images/pc/top-bg.png" className="hidden lg:hidden xl:block"></img>
@@ -71,11 +94,11 @@ const App = () => {
                     Crox is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
                   </div>
                 </div>
-                <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9">
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1 button-active">Safety</div>
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 xl:w-23-1 xl:h-6-6 xl:px-3-1 xl:mb-0-1 button-active">Cross-chain bridge</div>
-                  <div className="mb-0-7 w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1 xl:w-23-1 xl:h-6-6 xl:mb-0-1 button-active">Transaction speed is fast</div>
-                  <div className="w-18-2 h-2-4 bg-primary-green flex justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto xl:w-23-1 xl:px-4-1 xl:mb-0-1 button-active">Decentraliz-ation</div>
+                <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9 social-item">
+                  <div className={["mb-0-7 w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 lg:flex xl:flex xl:w-23-1 xl:h-6-6 xl:mb-0-1  button-active animate__animated", buttonAnimate ? 'animate__fadeIn flex' : 'hidden'].join(" ")}>Safety</div>
+                  <div className={["mb-0-7 w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 lg:flex xl:flex xl:w-23-1 xl:h-6-6 xl:px-3-1 xl:mb-0-1 button-active animate__animated", buttonAnimate ? 'animate__backInLeft flex' : 'hidden'].join(" ")}>Cross-chain bridge</div>
+                  <div className={["mb-0-7 w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1 lg:flex xl:flex xl:w-23-1 xl:h-6-6 xl:mb-0-1 button-active animate__animated ", buttonAnimate ? 'animate__backInRight flex' : 'hidden'].join(" ")}>Transaction speed is fast</div>
+                  <div className={["w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:flex xl:flex xl:w-23-1 xl:px-4-1 xl:mb-0-1 button-active animate__animated ", buttonAnimate ? 'animate__backInUp flex' : 'hidden'].join(" ")}>Decentraliz-ation</div>
                 </div>
               </div>
             </div>
@@ -91,14 +114,14 @@ const App = () => {
                 <div className="w-22-5 mb-0-8 lg:w-59-0 lg:mb-1-9 xl:flex-1 xl:mb-auto">
                   <div className="flex justify-between items-center xl:justify-evenly">
                     <div className="w-11-6 lg:w-30-7 xl:w-32-4">
-                      <div className="w-full mb-0-8 relative lg:mb-1-9 xl:h-32-4 xl:mb-1-9">
+                      <div className={["w-full mb-0-8 relative lg:mb-1-9 xl:h-32-4 xl:mb-1-9 animate__animated lg:block", tradAnimate ? 'animate__flipInY block' : 'hidden'].join(" ")}>
                         <img alt="" src="/images/mobile/trading-model-one.png" className="xl:hidden"></img>
                         <img alt="" src="/images/pc/trading-model-one.png" className="hidden lg:hidden xl:block"></img>
                         <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:text-4-0 lg:pl-2-7 lg:bottom-3-0 xl:text-2-5 xl:pr-3-0" >
                           Flexible and convenient
                         </div>
                       </div>
-                      <div className="w-full relative xl:h-14-7">
+                      <div className={["w-full relative xl:h-14-7 animate__animated lg:block", tradAnimate ? 'animate__flipInX block' : 'hidden'].join(" ")}>
                         <img alt="" src="/images/mobile/trading-model-three.png" className="xl:hidden"></img>
                         <img alt="" src="/images/pc/trading-model-three.png" className="hidden lg:hidden xl:block"></img>
                         <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0 xl:text-2-5" >
@@ -106,7 +129,7 @@ const App = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="w-10-0 lg:w-26-4 xl:w-31-6">
+                    <div className={["w-10-0 lg:w-26-4 xl:w-31-6 animate__animated lg:block", tradAnimate ? 'animate__flipInY block' : 'hidden'].join(" ")}>
                       <div className="w-full relative">
                         <img alt="" src="/images/mobile/trading-model-two.png" className="xl:hidden"></img>
                         <img alt="" src="/images/pc/trading-model-two.png" className="hidden lg:hidden xl:block"></img>
@@ -118,14 +141,14 @@ const App = () => {
                   </div>
                 </div>
                 <div className="w-22-5 flex justify-between items-center lg:w-59-0 xl:justify-start xl:items-center xl:flex-col-reverse xl:w-37-5">
-                  <div className="w-11-6 relative lg:w-30-7 xl:w-37-5 xl:h-32-5">
+                  <div className={["w-11-6 relative lg:w-30-7 xl:w-37-5 xl:h-32-5 animate__animated lg:block", tradAnimate ? 'animate__flipInX block' : 'hidden'].join(" ")}>
                     <img alt="" src="/images/mobile/trading-model-four.png" className="xl:hidden"></img>
                     <img alt="" src="/images/pc/trading-model-four.png" className="hidden lg:hidden xl:block"></img>
                     <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-7 lg:bottom-3-0 xl:text-2-5 xl:pr-4-0" >
                       Extremely fast transaction speed
                     </div>
                   </div>
-                  <div className="w-10-0 relative lg:w-26-4 xl:w-37-5 xl:h-14-8 xl:mb-1-7">
+                  <div className={["w-10-0 relative lg:w-26-4 xl:w-37-5 xl:h-14-8 xl:mb-1-7  animate__animated lg:block", tradAnimate ? 'animate__flipInX block' : 'hidden'].join(" ")}>
                     <img alt="" src="/images/mobile/trading-model-five.png" className="xl:hidden"></img>
                     <img alt="" src="/images/pc/trading-model-five.png" className="hidden lg:hidden xl:block"></img>
                     <div className="absolute w-full pl-0-5 bottom-2-1 text-white title-shadow lg:pl-2-4 lg:bottom-2-0 xl:text-2-5 xl:pr-8-0" >
