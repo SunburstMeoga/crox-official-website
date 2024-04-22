@@ -22,7 +22,7 @@ const App = () => {
   useEffect(() => {
     console.log("222")
     window.addEventListener("scroll", handleScroll)
-    var width = document.documentElement.clientWidth, fontSize;
+    var width = document.documentElement.clientWidth;
     if (width > 1024) {
       document.getElementsByTagName("html")[0].style["font-size"] = 0.8 + "vw";
     } else {
