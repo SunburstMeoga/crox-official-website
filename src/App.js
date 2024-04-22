@@ -15,7 +15,7 @@ const App = () => {
     }
     if (scrollY >= 1300) {
       toggleTradAnimate(tradAnimate = true)
-    } else if (scrollY < 744) {
+    } else if (scrollY < 1300) {
       toggleTradAnimate(tradAnimate = false)
     }
   }
@@ -32,7 +32,7 @@ const App = () => {
       <div className="bg-primary-green ">
         <div className="">
           <div className="animate__animated animate__fadeIn">
-            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3 xl:h-auto">
+            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-66-3 xl:h-auto">
               <div className="w-full relative h-full lg:absolute xl:relative ">
                 <div className="w-full absolute xl:relative">
                   <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
