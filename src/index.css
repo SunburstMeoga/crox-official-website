@@ -28,7 +28,7 @@ img {
 }
 
 .social-item:active {
-  color: grey;
+  /* color: grey; */
 }
 
 .title-shadow {
