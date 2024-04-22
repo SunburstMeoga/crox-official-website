@@ -11,7 +11,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <!-- <link rel="stylesheet" href="%PUBLIC_URL%/fonts/fonts.css" rel="external nofollow"> -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/font.css" rel="external nofollow">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>CROX</title>
 </head>
@@ -20,22 +20,22 @@
   <div id="root"></div>
 </body>
 <script>
-  function setRootFontSize() {
-    var width = document.documentElement.clientWidth;
-    if (width > 1024) {
-      document.getElementsByTagName("html")[0].style["font-size"] = 0.8 + "vw";
-    } else {
-      document.getElementsByTagName("html")[0].style["font-size"] = 16 + "px";
-    }
-    // fontSize = (width / 750) * 100;
-    // alert(document.getElementsByTagName("html")[0].style["font-size"])
+  // function setRootFontSize() {
+  //   var width = document.documentElement.clientWidth;
+  //   if (width > 1024) {
+  //     document.getElementsByTagName("html")[0].style["font-size"] = 0.8 + "vw";
+  //   } else {
+  //     document.getElementsByTagName("html")[0].style["font-size"] = 16 + "px";
+  //   }
+  //   // fontSize = (width / 750) * 100;
+  //   // alert(document.getElementsByTagName("html")[0].style["font-size"])
 
-  }
-  setRootFontSize();
+  // }
+  // setRootFontSize();
 
-  window.addEventListener("resize", function () {
-    setRootFontSize();
-  }, false);
+  // window.addEventListener("resize", function () {
+  //   setRootFontSize();
+  // }, false);
 </script>
 
 </html>
