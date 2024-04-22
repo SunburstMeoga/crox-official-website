@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 0.8vw;
+}
+
 * {
   font-family: PoppinsRegular;
   margin: 0;

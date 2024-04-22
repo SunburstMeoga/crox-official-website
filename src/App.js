@@ -9,7 +9,7 @@ const App = () => {
       <div className="bg-primary-green ">
         <div className="">
           <div className="">
-            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-66-3 xl:h-auto">
+            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3 xl:h-auto">
               <div className="w-full relative h-full lg:absolute xl:relative">
                 <div className="w-full absolute xl:relative ">
                   <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
@@ -67,7 +67,7 @@ const App = () => {
               </div>
               <div className="w-full pb-3-9 lg:pb-12-0 xl:pb-6-6">
                 <div className="w-full flex justify-center lg:justify-start xl:justify-end lg:pb-5-6 xl:pb-9-9 ">
-                  <div className="mt-3-0 text-title-gray font-black w-18-2 mb-1-4 lg:text-1-5 lg:w-38-6 lg:ml-3-6 lg:mt-2-0 xl:relative xl:z-10 xl:text-1-2 xl:w-42-9 xl:mt-4-4">
+                  <div className="mt-3-0 text-title-gray font-black w-18-2 mb-1-4 lg:text-1-5 lg:w-38-6 lg:ml-3-6 lg:mt-2-0 xl:relative xl:z-10 xl:text-1-2 xl:w-42-9 xl:mt-4-4 xl:mr-5-8">
                     Crox is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
                   </div>
                 </div>
