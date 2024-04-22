@@ -4,10 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- dpr = 1-->
-  <meta name="viewport"
-    content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
+  <!-- <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;"> -->
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -21,15 +20,11 @@
 </body>
 <script>
 
-  (function () {
-    var width = document.documentElement.clientWidth;
-    if (width > 1024) {
-      document.getElementsByTagName("html")[0].style["font-size"] = 0.8 + "vw";
-    } else {
-      document.getElementsByTagName("html")[0].style["font-size"] = 16 + "px";
-    }
-    console.log(document.getElementsByTagName("html")[0].style["font-size"])
-  })()
+  !function () {
+    var e = document.documentElement.clientWidth;
+    document.getElementsByTagName("html")[0].style["font-size"] = e > 1024 ? "0.8vw" : "16px",
+      console.log(document.getElementsByTagName("html")[0].style["font-size"])
+  }()
   // function setRootFontSize() {
   //   var width = document.documentElement.clientWidth;
   //   if (width > 1024) {
