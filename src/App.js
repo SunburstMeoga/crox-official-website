@@ -20,7 +20,7 @@ const App = () => {
     }
   }
   useEffect(() => {
-    console.log("222")
+    // console.log("222")
     window.addEventListener("scroll", handleScroll)
     handleScroll()
   })
