@@ -7,7 +7,7 @@ const App = () => {
   let handleScroll = () => {
     let scrollY = window.scrollY;
     // console.log(scrollY)
-    console.log(scrollY)
+    // console.log(scrollY)
     if (scrollY >= 744) {
       toggleButtonAnimate(buttonAnimate = true)
     } else if (scrollY < 744) {
