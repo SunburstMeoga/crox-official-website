@@ -20,7 +20,7 @@ const App = () => {
     // }
   }
   let gotoIndexer = () => {
-    widow.open('https://testnet.crox.ai/')
+    window.open('https://testnet.crox.ai/')
   }
   useEffect(() => {
     // console.log("222")
