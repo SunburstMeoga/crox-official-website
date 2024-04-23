@@ -98,7 +98,7 @@ const App = () => {
                     Crox is a sub-chain of Hash Ahead, connected through a cross-chain bridge, providing secure, decentralized underlying support and a smoother transaction experience for inscription issuance.
                   </div>
                 </div>
-                <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9 social-item">
+                <div className="ml-auto mr-auto w-18-2 text-title-black font-black text-1-3 lg:w-50-3 lg:flex lg:justify-between lg:items-center lg:flex-wrap lg:text-2-0 lg:text-center  xl:relative xl:z-10 xl:w-11/12 xl:mt-10-9">
                   <div className={["mb-0-7 w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 lg:flex xl:flex xl:w-23-1 xl:h-6-6 xl:mb-0-1  button-active animate__animated", buttonAnimate ? 'animate__backInUp flex' : 'hidden'].join(" ")}>Safety</div>
                   <div className={["mb-0-7 w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-1-1 lg:flex xl:flex xl:w-23-1 xl:h-6-6 xl:px-3-1 xl:mb-0-1 button-active animate__animated", buttonAnimate ? 'animate__backInLeft flex' : 'hidden'].join(" ")}>Cross-chain bridge</div>
                   <div className={["mb-0-7 w-18-2 h-2-4 bg-primary-green  justify-center items-center lg:w-23-1 lg:h-6-3 lg:mb-auto lg:px-3-1 lg:flex xl:flex xl:w-23-1 xl:h-6-6 xl:mb-0-1 button-active animate__animated ", buttonAnimate ? 'animate__backInRight flex' : 'hidden'].join(" ")}>Transaction speed is fast</div>
