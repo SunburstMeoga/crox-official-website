@@ -32,7 +32,7 @@ const App = () => {
       {/* <div className="text-3xl font-bold underline text-red-500 lg:text-blue-500 xl:text-yellow-500 ">
         crox official website
       </div> */}
-      <div className="bg-primary-green ">
+      <div className="bg-primary-green overflow-x-hidden">
         <div className="">
           <div className="animate__animated animate__fadeIn">
             <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-66-3 xl:h-auto">
