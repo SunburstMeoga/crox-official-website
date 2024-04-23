@@ -76,7 +76,7 @@ img {
 
 div {
   line-height: 1;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .button-active:active {
