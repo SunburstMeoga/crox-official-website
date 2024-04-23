@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const App = () => {
   let [buttonAnimate, toggleButtonAnimate] = useState(false)
-  let [tradAnimate, toggleTradAnimate] = useState(false)
+  let [tradAnimate, toggleTradAnimate] = useState(true)
 
   let handleScroll = () => {
     let scrollY = window.scrollY;
@@ -13,11 +13,14 @@ const App = () => {
     } else if (scrollY < 744) {
       toggleButtonAnimate(buttonAnimate = false)
     }
-    if (scrollY >= 1300) {
-      toggleTradAnimate(tradAnimate = true)
-    } else if (scrollY < 1300) {
-      toggleTradAnimate(tradAnimate = false)
-    }
+    // if (scrollY >= 1300) {
+    //   toggleTradAnimate(tradAnimate = true)
+    // } else if (scrollY < 1300) {
+    //   toggleTradAnimate(tradAnimate = false)
+    // }
+  }
+  let gotoIndexer = () => {
+    widow.open('https://testnet.crox.ai/')
   }
   useEffect(() => {
     // console.log("222")
@@ -39,12 +42,13 @@ const App = () => {
                   <img alt="" src="/images/pad/top-bg.png" className="hidden lg:block xl:hidden"></img>
                   <img alt="" src="/images/pc/top-bg.png" className="hidden lg:hidden xl:block"></img>
                 </div>
-                <div className="mt-0-9 relative z-10 lg:mt-4-8 xl:mt-2-5 xl:absolute xl:top-0-1 xl:left-0-1">
+                <div className="mt-0-9 w-full flex justify-between items-center relative z-10 lg:mt-4-8 xl:mt-2-5 xl:absolute xl:top-0-1 xl:left-0-1">
                   <div className="w-15-8 lg:w-19-9">
                     <img alt="" src="/images/mobile/logo-word.png" className="lg:hidden xl:hidden"></img>
                     <img alt="" src="/images/pad/logo-word.png" className="hidden lg:block xl:hidden lg:ml-3-9"></img>
                     <img alt="" src="/images/pc/logo-word.png" className="hidden lg:hidden xl:block lg:ml-4-5"></img>
                   </div>
+                  <div className="px-1-0 py-0-5 rounded-lg mr-1-0 button-gradient text-white  shadow-lg text-0-8 font-semibold lg:px-1-5 lg:py-0-7 lg:text-1-5 cursor-pointer" onClick={() => gotoIndexer()}>Go To Indexer</div>
                 </div>
                 <div className="relative w-full xl:absolute xl:top-0-1">
                   <div className="w-23-3 mt-2-4 ml-1-1 font-3-9 flex flex-col justify-start lg:w-56-5 lg:mt-8-1 lg:ml-3-9 xl:w-66-9 xl:mt-6-2 " >
