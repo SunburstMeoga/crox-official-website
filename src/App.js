@@ -35,7 +35,7 @@ const App = () => {
       <div className="bg-primary-green overflow-x-hidden">
         <div className="">
           <div className="animate__animated animate__fadeIn">
-            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-66-3 xl:h-auto">
+            <div className="w-full h-38-8 bg-primary-green relative border-t border-transparent lg:h-67-3 xl:h-auto">
               <div className="w-full relative h-full lg:absolute xl:relative ">
                 <div className="w-full absolute xl:relative">
                   <img alt="" src="/images/mobile/top-bg.png" className="lg:hidden xl:hidden" />
@@ -107,13 +107,32 @@ const App = () => {
               </div>
             </div>
 
-            <div className="w-full pb-2-8 bg-white border-t border-transparent lg:pb-3-3">
-              <div className="w-full flex flex-col justify-center items-center -mt-0-1">
-                <div className="w-0-2 h-3-7 bg-module-black lg:h-4-6 lg:w-0-4"></div>
-                <div className="w-1-9 h-1-9 rounded-full bg-module-black lg:w-3-6 lg:h-3-6 "></div>
+            <div className="w-full  border-t border-transparent relative">
+              <img src="/images/mobile/module-come-bg.png" className="lg:hidden xl:hidden" alt=""></img>
+              <img src="/images/pad/module-come-bg.png" className="hidden lg:block xl:hidden" alt=""></img>
+              <img src="/images/pc/module-come-bg.png" className="hidden lg:hidden xl:block" alt=""></img>
+              <div className="text-module-black absolute top-5-9 w-full flex flex-col justify-start items-center font-semibold lg:top-13-5 ">
+                <div className="text-1-6 leading-point-115 lg:text-2-5 lg:w-48-5 lg:ml-2-0 xl:w-96-0">Our fully decentralized <br></br> Indexer is under heavy</div>
+                <div className="text-4-4 text-left mt-1-5 leading-point-86 w-18-4 bg-module-bg lg:text-12-5 lg:bg-transparent lg:w-48-5 xl:w-96-0">Coming <br></br> Soon</div>
               </div>
-              <div className="w-full font-black pb-0-4 text-center whitespace-nowrap overflow-hidden text-4-1 lg:text-10-6 lg:pb-0-8 xl:mt-2-2"> New Trading</div>
-              <div className="w-full text-center font-black pb-0-4 text-4-0 lg:text-10-6 lg:pb-0-8 lg:-mt-1-9" >Model</div>
+              {/* <div className="top-13-5 hidden absolute lg:flex xl:hidden">
+                <div className="w-48-5 ml-2-0">Our fully decentralized <br></br> Indexer is under heavy</div>
+                <div className="text-12-5 w-48-5">Coming <br></br> Soon</div>
+              </div> */}
+              {/* <div className="text-module-black absolute top-5-9 w-full  flex-col justify-start items-center font-semibold lg:top-13-5 hidden lg:hidden xl:flex ">
+                <div className="text-1-6 leading-point-115 lg:text-2-5 lg:w-48-5 lg:ml-2-0">Our fully decentralized <br></br> Indexer is under heavy</div>
+                <div className="text-4-4 text-left mt-1-5 leading-point-86 w-18-4 bg-module-bg lg:text-12-5 lg:w-48-5">Coming <br></br> Soon</div>
+              </div> */}
+
+            </div>
+
+            <div className="w-full pb-2-8 bg-module-black border-t border-transparent lg:pb-3-3">
+              <div className="w-full flex flex-col justify-center items-center -mt-0-1">
+                <div className="w-0-2 h-3-7 bg-primary-green lg:h-4-6 lg:w-0-4"></div>
+                <div className="w-1-9 h-1-9 rounded-full bg-primary-green lg:w-3-6 lg:h-3-6 "></div>
+              </div>
+              <div className="w-full font-black pb-0-4 text-center whitespace-nowrap overflow-hidden text-4-1 text-primary-green lg:text-10-6 lg:pb-0-8 xl:mt-2-2"> New Trading</div>
+              <div className="w-full text-center font-black pb-0-4 text-4-0 text-primary-green lg:text-10-6 lg:pb-0-8 lg:-mt-1-9" >Model</div>
               <div className="mt-2-1 w-full flex flex-col justify-start items-center font-bold text-1-5 lg:text-4-0 xl:flex-row xl:w-11/12 xl:mr-auto xl:ml-auto xl:justify-evenly" >
                 <div className="w-22-5 mb-0-8 lg:w-59-0 lg:mb-1-9 xl:flex-1 xl:mb-auto">
                   <div className="flex justify-between items-center xl:justify-evenly">

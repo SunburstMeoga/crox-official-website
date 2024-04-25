@@ -21,7 +21,8 @@ module.exports = {
         'black-bg-2': 'rgba(0,0,0,.2)',
         'title-black': '#020202',
         'border-green': '#437820',
-        'word-gray': '#5E5E5E'
+        'word-gray': '#5E5E5E',
+        'module-bg': '#ADFF00'
       },
       fontSize: ({ theme }) => ({
         ...theme("spacing"),
