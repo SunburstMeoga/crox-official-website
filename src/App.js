@@ -48,7 +48,7 @@ const App = () => {
                     <img alt="" src="/images/pad/logo-word.png" className="hidden lg:block xl:hidden lg:ml-3-9"></img>
                     <img alt="" src="/images/pc/logo-word.png" className="hidden lg:hidden xl:block lg:ml-4-5"></img>
                   </div>
-                  <div className="px-1-0 py-0-5 rounded-lg mr-1-0 button-gradient text-white  shadow-lg text-0-8 font-semibold lg:px-1-5 lg:py-0-7 lg:text-1-5 cursor-pointer" onClick={() => gotoIndexer()}>Go To Indexer</div>
+                  <div className="px-1-5 py-1-0 rounded-lg mr-1-0 button-gradient text-white  shadow-lg text-1-0 font-semibold lg:px-1-5 lg:py-0-7 lg:text-1-5 cursor-pointer" onClick={() => gotoIndexer()}>Go To Indexer</div>
                 </div>
                 <div className="relative w-full xl:absolute xl:top-0-1">
                   <div className="w-23-3 mt-2-4 ml-1-1 font-3-9 flex flex-col justify-start lg:w-56-5 lg:mt-8-1 lg:ml-3-9 xl:w-66-9 xl:mt-6-2 " >
